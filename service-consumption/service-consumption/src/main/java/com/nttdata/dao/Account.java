@@ -34,15 +34,10 @@ public class Account {
     private int state;
 
 
-    /**
-     * fecha de creacion
-     */
+
     private LocalDateTime createdAt;
 
 
-    /**
-     * detalle de la transaccion
-     */
     private Detail detail;
 
     public Account() {
